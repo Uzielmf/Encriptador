@@ -39,3 +39,10 @@ function encriptar(stringEncriptada) {
     }
     return stringEncriptada;
 }
+
+
+
+ 
+
+
+
