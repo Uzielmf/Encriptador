@@ -17,7 +17,7 @@
 // inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 // El resultado debe ser mostrado en la pantalla.
 
-const inputTexto = document.querySelector(".input-texto") 
+const inputTexto = document.querySelector(".input-text") 
 let mensaje = document.querySelector(".mensaje")
 
 function btnEncriptar() {
