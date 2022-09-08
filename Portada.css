@@ -1,0 +1,93 @@
+body{
+    background-color: #031d3c;
+    background-image: url(encriptar3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.mensaje-bienvenida{
+    width: 50%;
+    height: 20vmin;
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+    font-family: monospace;
+    
+    position: absolute;
+    top: 15vmin;
+    left: 90vmin;
+}
+
+.bienvenida{
+    font-size: 3.5vmax;
+}
+
+.intro{
+    position: absolute;
+    font-size: 20px;
+    padding: 0 10%;
+}
+
+.btn-Inicio{
+    position: relative;
+    bottom: -120px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    /* width: 35vmin;
+    height: 5vmin; */
+    align-items: center;
+    color: white;
+    background-color: #80a8d6;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5vmax;
+    padding: 15px;
+}
+
+.btn-Inicio:hover{
+    transition: .3s, .3s;
+    color: #9ebee3;
+    background-color: #031d3c;
+    padding: 20px 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:rgba(146, 173, 242, 0.7);
+}
+
+a:active{
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: -50px;
+    height: 15%;
+    width: 100%;
+    background-color: #031d3c;
+    }
+
+.social-media-container{
+    align-items: center;
+    align-content: space-around;
+    padding: 0px 10px;
+    width: 20%;
+}
+
+.social-media{
+    display: inline;
+    width: 10%;
+}
+
