@@ -80,14 +80,15 @@ footer{
     height: 10vmin;
     text-align: center;
     color: aliceblue;
-    font-family: monospace;
+    font-family: 'Oswald', sans-serif;
     }
     
     
 .social-media{
-        padding: 0 3vmin ;
+        margin: 0 3vmin ;
+        width: 2vmax;
     }
 
-    
+
 
 
