@@ -166,7 +166,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    bottom: -140px;
+    bottom: -25vmin;
     width: 100%;
     background-color: #031d3c;
     height: 10vmin;
