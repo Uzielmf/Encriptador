@@ -149,18 +149,6 @@ body{
     letter-spacing: 2px;
 }
 
-.copiar{
-    position: relative;
-    bottom: 10%;
-    left: 30%;
-    width: 40%;
-    height: 7%;
-    border-radius: 10px;
-    border: 1px solid #000;
-    background: linear-gradient(to right, blue, white);
-
-}
-
 footer{
     position: absolute;
     display: flex;
@@ -168,7 +156,7 @@ footer{
     justify-content: space-evenly;
     bottom: -25vmin;
     width: 100%;
-    background-color: #031d3c;
+    background-color: #1f5392;
     height: 10vmin;
     text-align: center;
     color: aliceblue;
@@ -179,4 +167,10 @@ footer{
 .social-media{
         margin: 0 3vmin ;
         width: 2vmax;
+    }
+
+    .nombre-empresa:hover, .social-media:hover{
+        color: bisque;
+        scale: 1.5;
+        transition: .5s;
     }
